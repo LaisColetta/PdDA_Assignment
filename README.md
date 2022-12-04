@@ -14,10 +14,13 @@ I chose to analyse this dataset because it is a subject I enjoy reasearching and
 
 The Red Wine dataset consists on 1599 rows and 12 variables. From those variables, 11 are inputs and 1 is an output. For the purpose of this project I decided to analyse the 4 variables that have more correlation to the output.
 
-I started the investigation by giving an introduction of the variable and the dataset background. Then, I analysed the variables and its correlations, plotting my discoveries and drawing some conclusions. The next step was to analyse the 5 variables separately and try to understand which probability distributions they would be more likely to fit best. The most challenging part was to try to fit the data and compare to the original distribution plots. I have tried many different types of distributions from numpy.random and scipy.stats documentation and in some variables such as citric acid and quality I found very challenging and I was unsuccessfull in those analysis. 
+I started the investigation by giving an introduction of the variables and the dataset background. Then, I analysed the variables and its correlations, plotting my discoveries and drawing some conclusions. The next step was to analyse the 5 variables separately and try to understand which probability distributions they would be more likely to fit. The most challenging part was to try to fit the data comparing to the original distribution plots. 
+
+I have tried many different types of distributions from numpy.random and scipy.stats documentation and in some variables such as citric acid and quality I found very challenging and I couldn't get a very accurate result in those analysis. Doing some research, I learned that in machine learning there are a few techniques such as the boostrap method that is used to help with this issue.
 
 ## References
-All the websites and articles used in project are mentioned along with the text or code written in the jupyter notebook.
+
+All the websites and articles used in this project are mentioned along with the text or code in the jupyter notebook.
 
 ## Conclusion
 
