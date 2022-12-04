@@ -1,52 +1,35 @@
 # 22-23: Project 1 - PROGRAMMING FOR DATA ANALYSIS
+
 <b>Lais Coletta Pereira</b>
 ***
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
-
 ## Description
 
-For this project we were asked to model and synthesise a dataset using Python. The dataset should be a real-world phenomenon of data set of our choice and should contain at least one-hundred data points across at least four different variables. 
+For this project we were asked to analyse and synthesise a dataset using Python. The dataset should be a real-world phenomenon of data set of our choice and should contain at least one-hundred data points across at least four different variables. 
 
-For my project I chose to analyse the Wine Quality dataset that I found on the Kaggle website link https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
+For my project I chose to analyse the Wine Quality dataset that I found on the Kaggle website in this [link](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
 
+I chose to analyse this dataset because it is a subject I enjoy reasearching and have affinity with the variables. The filename in this repository is <b>PdDA_Assignment.ipynb</b>.
 
+***
 
-### The red wine quality Dataset
+## Project structure
 
-The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. For more details, consult the reference [Cortez et al., 2009]. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
+The Red Wine dataset consists on 1599 rows and 12 variables. From those variables, 11 are inputs and 1 is an output. For the purpose of this project I decided to analyse the 4 variables that have more correlation to the output.
 
-These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones).
-This dataset was downloaded from the website kaggle.com (https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) 
+I started the investigation by giving an introduction of the variable and the dataset background. Then, I analysed the variables and its correlations, plotting my discoveries and drawing some conclusions. The next step was to analyse the 5 variables separately and try to understand which probability distributions they would be more likely to fit best. The most challenging part was to try to fit the data and compare to the original distribution plots. I have tried many different types of distributions from numpy.random and scipy.stats documentation and in some variables such as citric acid and quality I found very challenging and I was unsuccessfull in those analysis. 
 
+***
 
-There are not any null values in the dataset. Total "null" values in the dataset is zero
+## References
+All the websites and articles used in project are mentioned along with the text or code written in the jupyter notebook.
 
-### Correlation and Causation 
-Reference: https://www.abs.gov.au/websitedbs/D3310114.nsf/home/statistical+language+-+correlation+and+causation
+***
 
-Two or more variables considered to be related, in a statistical context, if their values change so that as the value of one variable increases or decreases so does the value of the other variable (although it may be in the opposite direction). For example, for the two variables "hours worked" and "income earned" there is a relationship between the two if the increase in hours worked is associated with an increase in income earned. If we consider the two variables "price" and "purchasing power", as the price of goods increases a person's ability to buy these goods decreases (assuming a constant income).
+## Conclusion
 
-Correlation is a statistical measure (expressed as a number) that describes the size and direction of a relationship between two or more variables. A correlation between variables, however, does not automatically mean that the change in one variable is the cause of the change in the values of the other variable.
+It was a very interesting project in which I had to spend a considerable amount of time reseaching and trying the different distribution methods. There were a few arguments in some functions that I didn't know how to calculate so some distributions I was unable to execute. 
 
-Causation indicates that one event is the result of the occurrence of the other event; i.e. there is a causal relationship between the two events. This is also referred to as cause and effect.
+I have learned extensively about the numpy.random package and gained great knowlege in the importance of generating random data. At the end of the project, I attempted to create a model for machine learning based on KNN - Nearest neighbour algorithm and it was very enjoyable to understand better about this subject. 
 
-Theoretically, the difference between the two types of relationships are easy to identify — an action or occurrence can cause another (e.g. smoking causes an increase in the risk of developing lung cancer), or it can correlate with another (e.g. smoking is correlated with alcoholism, but it does not cause alcoholism). In practice, however, it remains difficult to clearly establish cause and effect, compared with establishing correlation.###
-
-Inspiration
-Use machine learning to determine which physiochemical properties make a wine 'good'!
-
-Acknowledgements
-
-This dataset is also available from the UCI machine learning repository, https://archive.ics.uci.edu/ml/datasets/wine+quality , I just shared it to kaggle for convenience. (I am mistaken and the public license type disallowed me from doing so, I will take this down at first request. I am not the owner of this dataset.
-
-Please include this citation if you plan to use this database:
-P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
-
-Relevant publication
-
-P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
-
-### Explanation of the variables
-source: https://www.kaggle.com/code/smailaar/red-wine-qualiyty-dataset-ml
-
+Thank you.
