@@ -26,6 +26,6 @@ All the websites and articles used in this project are mentioned along with the 
 
 It was a very interesting project in which I had to spend a considerable amount of time reseaching and trying the different distribution methods. There were a few arguments in some functions that I didn't know how to calculate so some distributions I was unable to execute. 
 
-I have learned extensively about the numpy.random package and gained great knowlege in the importance of generating random data. At the end of the project, I attempted to create a model for machine learning based on KNN - Nearest neighbour algorithm and it was very enjoyable to understand better about this subject. 
+I have learned extensively about the numpy.random package and gained great knowlege in the importance of generating random data. 
 
 Thank you.
